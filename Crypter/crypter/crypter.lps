@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="crypter.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="44"/>
+        <CursorPos X="58" Y="66"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../shared/untrc4.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntRC4"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="247"/>
+        <CursorPos X="11" Y="143"/>
+        <UsageCount Value="24"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../shared/untcrc32.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntCRC32"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="96"/>
+        <UsageCount Value="24"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../shared/untfunctions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntFunctions"/>
+        <EditorIndex Value="4"/>
+        <CursorPos Y="9"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../shared/unttypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntTypes"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="33" Y="17"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../shared/unteof.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntEOF"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="102"/>
+        <CursorPos X="32" Y="129"/>
+        <UsageCount Value="24"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="untlocalfunctions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntLocalFunctions"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="10"/>
+        <CursorPos X="30" Y="17"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="untstub.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntStub"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="77359"/>
+        <CursorPos X="22" Y="77382"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="crypter.dpr"/>
+        <Caret Line="12" Column="66"/>
+      </Position1>
+      <Position2>
+        <Filename Value="untstub.pas"/>
+        <Caret Line="21" Column="24"/>
+      </Position2>
+      <Position3>
+        <Filename Value="crypter.dpr"/>
+        <Caret Line="65" Column="7" TopLine="2"/>
+      </Position3>
+      <Position4>
+        <Filename Value="untstub.pas"/>
+        <Caret Line="39" Column="69" TopLine="17"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

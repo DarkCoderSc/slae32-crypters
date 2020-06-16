@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="Shellcode Crypter"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="crypter.dpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../shared/untrc4.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntRC4"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../shared/untcrc32.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntCRC32"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../shared/untfunctions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntFunctions"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../shared/unttypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntTypes"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../shared/unteof.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntEOF"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="untlocalfunctions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntLocalFunctions"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="untstub.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UntStub"/>
+      </Unit7>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="crypter"/>
+    </Target>
+    <SearchPaths>
+      <OtherUnitFiles Value="../shared"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
