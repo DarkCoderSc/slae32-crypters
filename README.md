@@ -2,7 +2,7 @@
 
 This Shellcode Crypter is using RC4 Cipher to encrypt and decrypt the payload directly in memory. 
 
-The RC4 key is not known both by crypter and stub, it will be bruteforced at stub run time `CRC32(Random(Length=4))`. Feel free to increase the length of the random key, notice it might increase considerably the time before shellcode gets decrypted.
+The RC4 key is not known by both crypter and stub, it will be bruteforced at stub run time `CRC32(Random(Length=4))`. Feel free to increase the length of the random key, notice it might increase considerably the time before shellcode gets decrypted.
 
 When payload is decrypted at runtime, the stub will create a new executable memory region and copy the decrypted shellcode to that region before execution.
 
