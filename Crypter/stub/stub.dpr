@@ -98,7 +98,7 @@ begin
 
         pShellCode := AEOF.Get(3, ADataSize);
 
-        WriteLn(Format('Shellcode Loaded, Length=[%d], CRC32_Signature=[%d (0x%s)]', [
+        WriteLn(Format('Shellcode Loaded, Length=[%d], CRC32_Signature=[%u (0x%s)]', [
                 ADataSize,
                 pSignature^,
                 IntToHex(pSignature^, 8)
